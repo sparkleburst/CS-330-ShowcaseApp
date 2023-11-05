@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "CS330-ShowcaseApp",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CS330-ShowcaseApp-Debug-090237e35946c7bf47d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CS330-ShowcaseApp",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "CS330-ShowcaseApp/external/cmakelibs/glfw",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CS330-ShowcaseApp.external.cmakelibs.glfw-Debug-d53126a91dcb0848ac19.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "CS330-ShowcaseApp/external/cmakelibs/glfw",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "CS330-ShowcaseApp/external/cmakelibs/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CS330-ShowcaseApp.external.cmakelibs.glfw.src-Debug-eec07c2aac3e7f0b175a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "CS330-ShowcaseApp/external/cmakelibs/glfw/src",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "cs330_showcase_app",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "cs330_showcase_app::@c7fa971f84511c7f0628",
+					"jsonFile" : "target-cs330_showcase_app-Debug-a8b642793180b53ba3ca.json",
+					"name" : "cs330_showcase_app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@a2822eca741320379267",
+					"jsonFile" : "target-glfw-Debug-914a35525547edfb68a1.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@d5e29214aab07a9ad5d5",
+					"jsonFile" : "target-uninstall-Debug-8a49a74c34ce296d4dd1.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "update_mappings::@a2822eca741320379267",
+					"jsonFile" : "target-update_mappings-Debug-de5cdaa10c332f49b6e9.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/maxan/OneDrive/Desktop/CS-330/CS330-ShowcaseApp/cmake-build-debug",
+		"source" : "C:/Users/maxan/OneDrive/Desktop/CS-330/CS330-ShowcaseApp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

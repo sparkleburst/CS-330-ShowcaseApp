@@ -1,0 +1,4 @@
+{
+  "enableCMake": true,
+  "sourceDirectory": "cs330-showcaseapp\\external\\cmakelibs\\glfw"
+}

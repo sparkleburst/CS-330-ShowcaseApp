@@ -1,0 +1,7 @@
+﻿  glad.c
+  application.cpp
+C:\Users\maxan\OneDrive\Desktop\CS-330\CS330-ShowcaseApp\CS330-ShowcaseApp\src\application.cpp(76,11): warning C4305: 'return': truncation from 'int' to 'bool'
+  main.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  CS330-ShowcaseApp.vcxproj -> C:\Users\maxan\OneDrive\Desktop\CS-330\CS330-ShowcaseApp\x64\Debug\CS330-ShowcaseApp.exe
